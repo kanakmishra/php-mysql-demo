@@ -19,16 +19,18 @@
     <body class="hold-transition login-page">
         <div class="container">
             <?php  if (empty($_SESSION['email'])){ ?>
-            <a href="./index.php">WELCOME !
+            <a href="/index.php">WELCOME !
                 <p> Please login or signup to continue</p>
             </a>
-                    <li class="active"><a href="./register.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                    <li class="active"><a href="./login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                <?php } else{ ?>
-                        <li><a href="./user.php">Account Settings</a></li>
-                        <li><a href="./change-password.php">Update Password</a></li>
-                    </li>
+            <ul>
+                <li class="active"><a href="./register.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li class="active"><a href="./login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            <?php } else{ ?>
+                    <li><a href="./user.php">Account Settings</a></li>
+                    <li><a href="./change-password.php">Update Password</a></li>
                     <li class="active"><a href="./logout.php"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
-                <?php }  ?>
+            <?php }  ?>
             </ul>
-            </div>
+        </div>
+    </body>
+</html>

@@ -3,7 +3,7 @@
 <html>
   <head>
     <title>Registration Form</title>
-    
+    <style>.parsley-errors-list { color: red;}</style>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
@@ -12,7 +12,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.9.1/parsley.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    
   </head>
   <body>
     <div class="container">
